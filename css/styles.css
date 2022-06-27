@@ -1,10 +1,62 @@
-body {
-    background: url('../image/ecommerce-and-shopping-banner.jpg') 100% 100% no-repeat;
+/* body {
+    background: url('../image/ecommerce-and-shopping-banner.jpg') no-repeat center center fixed;
     /* background-repeat: no-repeat; */
     /* overflow: hidden; */
-    background-size: cover;
+    /* background-size: cover; */
     /* min-height: 100vh;
     width: 100%; */
-    background-attachment: fixed;
+   /* Add the blur effect */
+  /* filter: blur(8px);
+  -webkit-filter: blur(8px);
   
-   } 
+   } */ 
+   body, html {
+    height: 100%;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .bg-image {
+    /* The image used */
+    background-image: url("../image/ecommerce-and-shopping-banner.jpg");
+  
+    /* Add the blur effect */
+    filter: blur(0px);
+    -webkit-filter: blur(0px);
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  /* Position text in the middle of the page/image */
+  .bg-text {
+    background-color: rgb(154, 154, 203); /* Fallback color */
+    background-color: rgba(219, 208, 10, 0.987); /* Black w/opacity/see-through */
+    color: rgb(216, 32, 207);
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font: 4em sans-serif;
+    border: 6px solid #c22292;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 40;
+    width: 80%;
+    padding: 15px;
+    text-align: center;
+  }
+  
+.electronics-img{
+    width: 20%;
+    height: 20%;
+
+}
+  
