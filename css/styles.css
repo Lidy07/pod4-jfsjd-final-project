@@ -1,4 +1,10 @@
 body {
-    background-image: src=;
-    background-color: #cccccc;
+    background: url('../image/ecommerce-and-shopping-banner.jpg') 100% 100% no-repeat;
+    /* background-repeat: no-repeat; */
+    /* overflow: hidden; */
+    background-size: cover;
+    /* min-height: 100vh;
+    width: 100%; */
+    background-attachment: fixed;
+  
    } 
